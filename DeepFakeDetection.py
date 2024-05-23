@@ -111,4 +111,4 @@ print("Validation Accuracy:", evaluation[1])
 model = clf.export_model()
 
 model.summary()
-model.save('model_autokeras_bayesian', save_format='tf')
+model.save('model_autokeras', save_format='tf')
